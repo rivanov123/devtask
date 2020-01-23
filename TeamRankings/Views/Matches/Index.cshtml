@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TeamRankings.ViewModel.MatchViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="js/MatchScripts.js"></script>
+
+<h1>Matches</h1>
+
+<p>
+    <button id="add-match" title="Create" type="button" class="btn btn-primary" onclick="Matches.createMatch()">Create</button>
+</p>
+
+<div id="popup-container"></div>
+
+<div id="match-table-container">
+    @await Html.PartialAsync("MatchesTablePartial", Model)
+</div>

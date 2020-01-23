@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net462</TargetFramework>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="bootstrap" Version="4.4.1" />
+    <PackageReference Include="EntityFramework" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeamRankings.Adapters.Mvc.Abstractions\TeamRankings.Adapters.Mvc.Abstractions.csproj" />
+    <ProjectReference Include="..\TeamRankings.Adapters.Mvc\TeamRankings.Adapters.Mvc.csproj" />
+    <ProjectReference Include="..\TeamRankings.DataAccess\TeamRankings.DataAccess.csproj" />
+    <ProjectReference Include="..\TeamRankings.DomainLayer.Abstractions\TeamRankings.DomainLayer.Abstractions.csproj" />
+    <ProjectReference Include="..\TeamRankings.DomainLayer\TeamRankings.DomainLayer.csproj" />
+    <ProjectReference Include="..\TeamRankings.DomainModel\TeamRankings.DomainModel.csproj" />
+    <ProjectReference Include="..\TeamRankings.ViewModel\TeamRankings.ViewModel.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>

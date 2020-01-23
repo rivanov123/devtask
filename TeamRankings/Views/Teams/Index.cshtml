@@ -1,0 +1,19 @@
+﻿@model IEnumerable<TeamRankings.ViewModel.TeamViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/lib/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/TeamScripts.js" asp-append-version="true"></script>
+<h1>Teams</h1>
+
+<p>
+    <button id="add-team" title="Create" type="button" class="btn btn-primary" onclick="Teams.createTeam()">Create</button>
+</p>
+
+<div id="popup-container"></div>
+<div id="teams-table-container">
+    @await Html.PartialAsync("TeamTablePartial", Model)
+</div>

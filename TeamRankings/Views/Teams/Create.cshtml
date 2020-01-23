@@ -1,0 +1,37 @@
+﻿@model TeamRankings.ViewModel.TeamViewModel
+
+<div id="team-create-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Create New Team</h5>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                @using (Html.BeginForm(null, null, FormMethod.Post, new { id = "team-create-form" }))
+                {
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group">
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    @*<div class="form-group">
+                        <label asp-for="Rank" class="control-label"></label>
+                        <input asp-for="Rank" class="form-control" />
+                        <span asp-validation-for="Rank" class="text-danger"></span>
+                    </div>*@
+                    <div class="form-group">
+                        <label asp-for="Score" class="control-label"></label>
+                        <input asp-for="Score" class="form-control" />
+                        <span asp-validation-for="Score" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <input id="team-create-submit" type="submit" value="Create" class="btn btn-primary" />
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

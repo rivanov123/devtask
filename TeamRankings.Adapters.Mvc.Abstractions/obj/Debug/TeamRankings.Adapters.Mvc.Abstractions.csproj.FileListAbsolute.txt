@@ -1,0 +1,8 @@
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\bin\Debug\TeamRankings.Adapters.Mvc.Abstractions.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\bin\Debug\TeamRankings.Adapters.Mvc.Abstractions.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\bin\Debug\TeamRankings.ViewModel.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\bin\Debug\TeamRankings.ViewModel.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\obj\Debug\TeamRankings.Adapters.Mvc.Abstractions.csprojAssemblyReference.cache
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\obj\Debug\TeamRankings.Adapters.Mvc.Abstractions.csproj.CopyComplete
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\obj\Debug\TeamRankings.Adapters.Mvc.Abstractions.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.Adapters.Mvc.Abstractions\obj\Debug\TeamRankings.Adapters.Mvc.Abstractions.pdb

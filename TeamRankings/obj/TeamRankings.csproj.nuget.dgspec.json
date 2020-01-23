@@ -1,0 +1,306 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings\\TeamRankings.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj",
+        "projectName": "TeamRankings.Adapters.Mvc.Abstractions",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj",
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc\\TeamRankings.Adapters.Mvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc\\TeamRankings.Adapters.Mvc.csproj",
+        "projectName": "TeamRankings.Adapters.Mvc",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc\\TeamRankings.Adapters.Mvc.csproj",
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj",
+        "projectName": "TeamRankings.DataAccess",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj",
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj",
+        "projectName": "TeamRankings.DomainLayer.Abstractions",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj",
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer\\TeamRankings.DomainLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer\\TeamRankings.DomainLayer.csproj",
+        "projectName": "TeamRankings.DomainLayer",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer\\TeamRankings.DomainLayer.csproj",
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj",
+        "projectName": "TeamRankings.DomainModel",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj",
+        "packagesPath": "C:\\Users\\WidowSwitch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WidowSwitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://extremesoft.eu:8889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj",
+        "projectName": "TeamRankings.ViewModel",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj"
+      },
+      "frameworks": {
+        "net462": {}
+      }
+    },
+    "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings\\TeamRankings.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings\\TeamRankings.csproj",
+        "projectName": "TeamRankings",
+        "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings\\TeamRankings.csproj",
+        "packagesPath": "C:\\Users\\WidowSwitch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\WidowSwitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net462"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://extremesoft.eu:8889/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net462": {
+            "projectReferences": {
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc.Abstractions\\TeamRankings.Adapters.Mvc.Abstractions.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc\\TeamRankings.Adapters.Mvc.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.Adapters.Mvc\\TeamRankings.Adapters.Mvc.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DataAccess\\TeamRankings.DataAccess.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer.Abstractions\\TeamRankings.DomainLayer.Abstractions.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer\\TeamRankings.DomainLayer.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainLayer\\TeamRankings.DomainLayer.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.DomainModel\\TeamRankings.DomainModel.csproj"
+              },
+              "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj": {
+                "projectPath": "C:\\Users\\WidowSwitch\\Source\\Repos\\TeamRankings\\TeamRankings.ViewModel\\TeamRankings.ViewModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net462": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.BrowserLink": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "bootstrap": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

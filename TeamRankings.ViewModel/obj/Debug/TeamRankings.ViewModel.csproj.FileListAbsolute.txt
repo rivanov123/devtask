@@ -1,0 +1,7 @@
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\bin\Debug\TeamRankings.ViewModel.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\bin\Debug\TeamRankings.ViewModel.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\obj\Debug\TeamRankings.ViewModel.csprojAssemblyReference.cache
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\obj\Debug\TeamRankings.ViewModel.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\obj\Debug\TeamRankings.ViewModel.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.ViewModel\obj\Debug\TeamRankings.ViewModel.csproj.CopyComplete

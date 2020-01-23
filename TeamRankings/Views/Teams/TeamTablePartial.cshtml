@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TeamRankings.ViewModel.TeamViewModel>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rank)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Score)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr id="@item.Id">
+            <td>
+                @Html.DisplayFor(_ => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(_ => item.Rank)
+            </td>
+            <td>
+                @Html.DisplayFor(_ => item.Score)
+            </td>
+            <td>
+                <button id="team-edit-button" title="Update" class="btn btn-link" onclick="Teams.updateTeam(@item.Id)">Update</button> |
+                <button id="team-delete-button" title="Delete" class="btn btn-link" onclick="Teams.deleteTeam(@item.Id)">Delete</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

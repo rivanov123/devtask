@@ -1,0 +1,15 @@
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.csprojAssemblyReference.cache
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.AssemblyInfoInputs.cache
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.AssemblyInfo.cs
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\TeamRankings.DomainModel.deps.json
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\TeamRankings.DomainModel.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\TeamRankings.DomainModel.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.pdb
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\bin\Debug\netstandard2.0\System.Security.xml
+C:\Users\WidowSwitch\Source\Repos\TeamRankings\TeamRankings.DomainModel\obj\Debug\netstandard2.0\TeamRankings.DomainModel.csproj.CopyComplete

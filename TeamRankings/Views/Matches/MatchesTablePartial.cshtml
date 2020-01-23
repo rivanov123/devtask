@@ -1,0 +1,35 @@
+﻿@model IEnumerable<TeamRankings.ViewModel.MatchViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Played At
+            </th>
+            <th>
+                Teams
+            </th>
+            <th>
+                Result
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr id="@item.Id">
+                <td>
+                    @Html.DisplayFor(_ => item.TeamA) : @Html.DisplayFor(_ => item.TeamB)
+                </td>
+                <td>
+                    @Html.DisplayFor(_ => item.TeamAScore) : @Html.DisplayFor(_ => item.TeamBScore)
+                </td>
+                <td>
+                    <button id="team-edit-button" title="Update" class="btn btn-link" onclick="Matches.updateMatch(@item.Id)">Update</button> |
+                    <button id="team-delete-button" title="Delete" class="btn btn-link" onclick="Matches.deleteMatch(@item.Id)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
