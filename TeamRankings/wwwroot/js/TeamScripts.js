@@ -1,16 +1,16 @@
 ﻿var Teams = (function() {
 
-    //var connection = new signalR.HubConnectionBuilder()
-    //    .withUrl("/teamHub", {
-    //        skipNegotiation: true,
-    //        transport: signalR.HttpTransportType.WebSockets
-    //    })
-    //    .build();
-    //connection.on("UpdateTeams", function() {
-    //    updateDataTable();
-    //});
+    var connection = new signalR.HubConnectionBuilder()
+        .withUrl("/teamHub", {
+            skipNegotiation: true,
+            transport: signalR.HttpTransportType.WebSockets
+        })
+        .build();
+    connection.on("UpdateTeams", function() {
+        updateDataTable();
+    });
 
-    //connection.start();
+    connection.start();
 
     function setCreateScript() {
         $('#team-create-submit').on('click', function (e) {
